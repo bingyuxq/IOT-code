@@ -1,6 +1,6 @@
-wifi.setmode(wifi.STATION)
-wifi.sta.config({ssid="bingyu-IOT",pwd="bingyuiotpassword"})   ---   SSID and Password for your LAN DHCP here
-wifi.sta.connect()
+--wifi.setmode(wifi.STATION)
+--wifi.sta.config({ssid="bingyu-IOT",pwd="bingyuiotpassword"})   ---   SSID and Password for your LAN DHCP here
+--wifi.sta.connect()
   print("System Info:  ")
   print("IP: ")
   print(wifi.sta.getip())
